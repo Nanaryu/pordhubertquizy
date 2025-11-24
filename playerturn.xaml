@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pordhubertquizy.playerturn"
+             Title="playerturn">
+    <VerticalStackLayout>
+        <Label
+            x:Name="playerName"
+            Text="playername"
+           />
+        <Button
+            x:Name="playRound"
+            Background="#aa77ff" 
+            Text="Ok" 
+            TextColor="#efefef" 
+            FontAttributes="Bold" 
+            FontSize="30"
+            Clicked="playRound_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
