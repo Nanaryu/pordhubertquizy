@@ -7,8 +7,16 @@
     Title="pordhubertquizy">
 
     <ShellContent
-        Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+    ContentTemplate="{DataTemplate local:question}"
+    Route="question" />
+    <ShellContent
+    ContentTemplate="{DataTemplate local:playerturn}"
+    Route="playerturn" />
+    <ShellContent
+    ContentTemplate="{DataTemplate local:leaderboard}"
+    Route="leaderboard" />
 
 </Shell>

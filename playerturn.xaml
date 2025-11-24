@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="pordhubertquizy.playerturn"
-             Title="playerturn">
-    <VerticalStackLayout>
+             Title="playerturn"
+             Background="#011627">
+    <VerticalStackLayout VerticalOptions="Center" Spacing="20">
         <Label
             x:Name="playerName"
             Text="playername"
+            TextColor="#efefef"
+            HorizontalOptions="Center"
+            FontSize="30"
            />
         <Button
             x:Name="playRound"

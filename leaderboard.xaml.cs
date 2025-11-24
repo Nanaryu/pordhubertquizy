@@ -6,4 +6,9 @@ public partial class leaderboard : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void RestartGame_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

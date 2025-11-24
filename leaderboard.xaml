@@ -2,11 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="pordhubertquizy.leaderboard"
-             Title="leaderboard">
+             Title="leaderboard"
+             Background="#011627">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            Text="Wyniki końcowe" 
+            HorizontalOptions="Center"
+            FontSize="20"/>
+            <Label 
+            x:Name="Winner"
+            Text="Wygrał" 
+            HorizontalOptions="Center"
+            FontSize="24"/>
+        <Label 
+            x:Name="ResultsPlayer1"
+            Margin="50,0,0,0"
+            Text="Wyniki (nazwa gracza): (punkty)" 
+            HorizontalOptions="Center"
+            FontSize="18"/>
+            <Label 
+            x:Name="ResultsPlayer2"
+            Text="Wyniki (nazwa gracza): (punkty)" 
+            HorizontalOptions="Center"
+            FontSize="18"/>
+        <Button
+        x:Name="RestartGame"
+        Text="Restart"
+        Background="#E71D36"
+        Clicked="RestartGame_Clicked"       
+        />
     </VerticalStackLayout>
 </ContentPage>
