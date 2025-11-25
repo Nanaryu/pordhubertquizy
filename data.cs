@@ -15,5 +15,7 @@ namespace pordhubertquizy
         public string Player1 { get; set; }
         public string Player2 { get; set; }
         public int Round { get; set; }
+        public int Pts1 { get; set; }
+        public int Pts2 { get; set; }
     }
 }
