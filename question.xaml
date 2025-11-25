@@ -4,20 +4,55 @@
              x:Class="pordhubertquizy.question"
              Title="question"
              Background="#011627">
-    <VerticalStackLayout>
+    <VerticalStackLayout Margin="30" Spacing="20" VerticalOptions="Center">
         <Label 
             Text="Pytanie:"
             FontSize="20"
-            TextColor="#efefef"/>
-
+            TextColor="#efefef"
+            HorizontalOptions="Center"/>
+        <Label
+            x:Name="qtext"
+            Text="Co się stało pod legnicą?"
+            FontSize="20"
+            TextColor="#efefef"
+            HorizontalOptions="Center"/>
 
         <Button
-            x:Name="answer"
+            x:Name="ans1"
             Background="#aa77ff" 
-            Text="Answer" 
+            Text="ans1" 
             TextColor="#efefef" 
             FontAttributes="Bold" 
-            FontSize="30"
-            Clicked="answer_Clicked"/>
+            FontSize="20"
+            Clicked="answer_Clicked1"
+            />
+        <Button
+            x:Name="ans2"
+            Background="#aa77ff" 
+            Text="ans2" 
+            TextColor="#efefef" 
+            FontAttributes="Bold" 
+            FontSize="20"
+            Clicked="answer_Clicked2"
+            />
+        <Button
+            x:Name="ans3"
+            Background="#aa77ff" 
+            Text="ans3" 
+            TextColor="#efefef" 
+            FontAttributes="Bold" 
+            FontSize="20"
+            Clicked="answer_Clicked3"
+            />
+        <Button
+            x:Name="ans4"
+            Background="#aa77ff" 
+            Text="ans4" 
+            TextColor="#efefef" 
+            FontAttributes="Bold" 
+            FontSize="20"
+            Clicked="answer_Clicked4"
+            />
+
     </VerticalStackLayout>
 </ContentPage>

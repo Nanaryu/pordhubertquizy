@@ -5,7 +5,6 @@
         public MainPage()
         {
             InitializeComponent();
-            
         }
 
         async private void begin_Clicked(object sender, EventArgs e)

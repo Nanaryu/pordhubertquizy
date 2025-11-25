@@ -8,23 +8,27 @@
         <Label 
             Text="Wyniki końcowe" 
             HorizontalOptions="Center"
-            FontSize="20"/>
+            FontSize="20"
+            TextColor="#efefef"/>
             <Label 
             x:Name="Winner"
             Text="Wygrał" 
             HorizontalOptions="Center"
-            FontSize="24"/>
+            FontSize="24"
+                TextColor="#efefef"/>
         <Label 
             x:Name="ResultsPlayer1"
             Margin="50,0,0,0"
-            Text="Wyniki (nazwa gracza): (punkty)" 
+            Text="Punkty : " 
             HorizontalOptions="Center"
-            FontSize="18"/>
+            FontSize="18"
+            TextColor="#efefef"/>
             <Label 
             x:Name="ResultsPlayer2"
-            Text="Wyniki (nazwa gracza): (punkty)" 
+            Text="Punkty : " 
             HorizontalOptions="Center"
-            FontSize="18"/>
+            FontSize="18"
+                TextColor="#efefef"/>
         <Button
         x:Name="RestartGame"
         Text="Restart"

@@ -4,7 +4,7 @@
              x:Class="pordhubertquizy.playerturn"
              Title="playerturn"
              Background="#011627">
-    <VerticalStackLayout VerticalOptions="Center" Spacing="20">
+    <VerticalStackLayout VerticalOptions="Center" Spacing="20" Margin="30">
         <Label
             x:Name="playerName"
             Text="playername"
